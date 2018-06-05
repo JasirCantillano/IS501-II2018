@@ -1,0 +1,14 @@
+Escalable/Escalabilidad: Plataforma/Base de datos/Software 
+diseñado para que en un futuro los cambios, actualizacion o cualquier tipo 
+de adaptación sea más simple porque fue considerada a la hora de su diseño.
+
+Llave primaria: Campo o conjunto de campos para identificar de forma unica un registro.
+Este tipo de campo NO puede contener valores nulos.
+
+Llaves Subrogadas Una llave Subrogada es un campo numérico de una 
+tabla cuyo único requisito es almacenar un valor numérico único 
+para cada fila de la tabla.
+
+Llave unica (Unique Constraint): Campo o conjunto de campos que no se repiten pero 
+que no necesariamente son llaves primaria. Este tipo de campo puede contener 
+valores nulos.
