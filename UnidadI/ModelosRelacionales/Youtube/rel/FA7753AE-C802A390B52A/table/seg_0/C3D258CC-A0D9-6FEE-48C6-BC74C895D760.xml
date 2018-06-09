@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3D258CC-A0D9-6FEE-48C6-BC74C895D760" name="TBL_FORMATOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-08 23:38:40 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FORMATO" id="893E16EA-6690-6E2E-C32C-7701A259A610">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-08 23:39:48 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_FORMATO" id="C6A0547A-EB6E-29F2-8BA1-64CE2E1A6D50">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-08 23:39:48 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="9B2CAE40-B2CD-A31C-A5A9-500D9410E3EC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-08 23:39:48 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EACAFD2-ABD2-72D6-0002-0A0A09347A45" name="TBL_FORMATOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-08 23:39:48 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="893E16EA-6690-6E2E-C32C-7701A259A610"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Youtube" id="23DD6293-CD6D-17B2-3976-20A0A0B4F90F" version="3.5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-08 23:09:10 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>23DD6293-CD6D-17B2-3976-20A0A0B4F90F</designId>
+</OSDM_Design>

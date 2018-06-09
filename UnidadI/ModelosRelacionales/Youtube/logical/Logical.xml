@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="9226F2E6-E4B1-2A2A-37E0-FC008CDC1963" mainViewID="03230BF8-C9A5-8359-41B7-28FE9CA0D289">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-08 23:09:10 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

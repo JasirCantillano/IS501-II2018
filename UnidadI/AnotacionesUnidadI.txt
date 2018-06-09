@@ -12,3 +12,9 @@ para cada fila de la tabla.
 Llave unica (Unique Constraint): Campo o conjunto de campos que no se repiten pero 
 que no necesariamente son llaves primaria. Este tipo de campo puede contener 
 valores nulos.
+
+
+Cardinalidades:
+1:1 Uno a uno
+1:N o N:1 Uno a muchos o Muchos a uno
+N:M Muchos a muchos
