@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3423EAFC-E595-DFDE-89D6-2685DE30F69B" containerWithKeyObject="A3BDC020-3D93-1C92-18CB-A0E3ECF827E8" localFKIndex="A1D206C3-6D47-4624-9549-49ECFA99FEB9" name="TBL_MUNICIPIOS_TBL_DEPARTAMENTOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:15:41 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<referredTableLongName>TBL_DEPARTAMENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BAF28C7B-B84D-EA22-CA6C-97233E2EACB2</referredTableID>
+<keyObject>54876746-C891-8C9B-C1C6-394C0CCE19FD</keyObject>
+<referredKeyID>54876746-C891-8C9B-C1C6-394C0CCE19FD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_DEPARTAMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

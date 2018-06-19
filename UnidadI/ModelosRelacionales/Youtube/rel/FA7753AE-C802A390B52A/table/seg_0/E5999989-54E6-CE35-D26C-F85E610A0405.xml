@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5999989-54E6-CE35-D26C-F85E610A0405" name="LISTAS_REPRODUCCION_CANALES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-13 23:40:05 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LISTA" id="2CB490DB-DEEB-872A-EDB3-CDC4BC5CC025">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-13 23:43:57 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CANAL" id="145C7478-4DDD-6BA4-B903-E5801D9DCD12">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-13 23:46:50 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CE38AFB-6EE8-82FC-CB59-3AF4A9CEA3AB" referredColumn="2F89048F-14AD-02E7-3E23-568BBCB96D3E"/>
+</associations>
+</Column>
+<Column name="TITULO_LISTA" id="A5E58A28-5C92-4EAD-9C43-A4C7290D5342">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-13 23:43:57 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="B0015152-12A3-87CE-D4BD-08DC4F11935B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-13 23:43:57 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="89AF5134-BD0D-600D-BEC7-9054481D2349">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-13 23:43:57 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B995FA59-27CD-E5F7-831C-247E0CAD325C" name="LISTAS_REPRODUCCION_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-13 23:43:57 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CB490DB-DEEB-872A-EDB3-CDC4BC5CC025"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61DC3CD5-B63F-7B0D-92FD-3447E3B7ED45" name="LISTAS_REPRODUCCION_TBL_CANALES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-13 23:46:50 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="145C7478-4DDD-6BA4-B903-E5801D9DCD12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

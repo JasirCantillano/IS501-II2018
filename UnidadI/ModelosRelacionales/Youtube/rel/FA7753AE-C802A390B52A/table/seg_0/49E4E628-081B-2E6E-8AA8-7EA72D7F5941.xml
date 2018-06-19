@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49E4E628-081B-2E6E-8AA8-7EA72D7F5941" name="TBL_TIPOS_REACCIONES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:48:21 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_REACCION" id="10825342-A921-166D-119E-9C8D3710007F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:49:09 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_REACCION" id="D9FEADF3-5CF7-608E-9707-88E79D0651CB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:49:09 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICONO_REACCION" id="018D04D0-E28D-DE29-A197-9EE7E78444EB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:49:09 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2D0BCB7-1A26-98B5-8260-29DD9F48CD33" name="TBL_TIPOS_REACCIONES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:49:09 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10825342-A921-166D-119E-9C8D3710007F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

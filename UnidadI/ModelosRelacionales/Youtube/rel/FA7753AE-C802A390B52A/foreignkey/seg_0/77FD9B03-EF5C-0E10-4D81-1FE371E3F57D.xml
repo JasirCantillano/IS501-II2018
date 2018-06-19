@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="77FD9B03-EF5C-0E10-4D81-1FE371E3F57D" containerWithKeyObject="078C53BE-ED73-C2E2-0CEB-6B4079DE8B85" localFKIndex="E25AA1CA-DC43-ADA9-E84F-E83AA04BBF0B" name="LISTAS_REPRODUCCION_TBL_TIPOS_ACCESOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-14 23:39:57 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_ACCESOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>628FB722-F3F7-A1AE-1B8B-CA20202E0B5F</referredTableID>
+<keyObject>94E4683C-A126-E093-E1AE-CEA56534ED99</keyObject>
+<referredKeyID>94E4683C-A126-E093-E1AE-CEA56534ED99</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_ACCESO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

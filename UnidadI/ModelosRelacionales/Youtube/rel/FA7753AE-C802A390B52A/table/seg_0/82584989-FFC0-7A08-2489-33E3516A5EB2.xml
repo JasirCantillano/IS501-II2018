@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82584989-FFC0-7A08-2489-33E3516A5EB2" name="TBL_REACCIONES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:29:44 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="01D31AFC-70B4-DC58-5551-49003B9740C6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:31:04 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E6C121C-7E3E-7D35-7772-C6A427D005A5" referredColumn="326F0CFD-AB99-8D73-271D-5ACB8535E78A"/>
+</associations>
+</Column>
+<Column name="CODIGO_VIDEO" id="4A052B64-730E-E8C7-6676-A0742349A98C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:31:14 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5709AF87-9714-D21A-5A12-2850E3E9FC95" referredColumn="4BD1E78D-66F9-6E29-91D5-738584358575"/>
+</associations>
+</Column>
+<Column name="CODIGO_COMENTARIO" id="7FFC0E1A-6861-66BF-A3FE-A52CFAFAD2D3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:38:05 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CFBA24A-F967-2BA1-B6A0-372E1A9EB7E9" referredColumn="448CED52-E2CF-B4B3-80DB-8B981A66D998"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_REACCION" id="69CF2E8B-8154-39EB-E7EA-580296DAE0A3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:49:26 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E103EEC-48CB-8417-28B4-7D8396D26EFD" referredColumn="10825342-A921-166D-119E-9C8D3710007F"/>
+</associations>
+</Column>
+<Column name="FECHA_REACCION" id="97CEADB5-DE1F-3CD8-4714-59C34311F295">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:30:53 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE7FA8C0-1CCE-423B-738C-8AA987E6DBEA" name="IDX_REACCION_VIDEOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:43:39 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01D31AFC-70B4-DC58-5551-49003B9740C6"/>
+<colUsage columnID="4A052B64-730E-E8C7-6676-A0742349A98C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C491B6D-F2AE-219B-8713-F3D5DC07E461" name="IDX_REACCION_COMENTARIOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:43:39 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01D31AFC-70B4-DC58-5551-49003B9740C6"/>
+<colUsage columnID="7FFC0E1A-6861-66BF-A3FE-A52CFAFAD2D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95C570B3-117F-898C-7751-549F9B01F4E2" name="TBL_REACCION_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:31:04 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01D31AFC-70B4-DC58-5551-49003B9740C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D742C8FA-8AA2-AEA4-83B3-B78516C1EAF9" name="TBL_REACCION_TBL_VIDEOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:31:14 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A052B64-730E-E8C7-6676-A0742349A98C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="880E6CF6-63F7-E9A8-331D-828C748909DA" name="TBL_REACCION_TBL_COMENTARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:38:05 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FFC0E1A-6861-66BF-A3FE-A52CFAFAD2D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CE64E4C-F617-39FF-76F1-3DBEACFC12CA" name="TBL_REACCIONES_TBL_TIPOS_REACCIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:49:26 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69CF2E8B-8154-39EB-E7EA-580296DAE0A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

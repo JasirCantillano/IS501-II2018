@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E103EEC-48CB-8417-28B4-7D8396D26EFD" containerWithKeyObject="82584989-FFC0-7A08-2489-33E3516A5EB2" localFKIndex="7CE64E4C-F617-39FF-76F1-3DBEACFC12CA" name="TBL_REACCIONES_TBL_TIPOS_REACCIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:49:26 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_REACCIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>49E4E628-081B-2E6E-8AA8-7EA72D7F5941</referredTableID>
+<keyObject>B2D0BCB7-1A26-98B5-8260-29DD9F48CD33</keyObject>
+<referredKeyID>B2D0BCB7-1A26-98B5-8260-29DD9F48CD33</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_REACCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -33,6 +33,20 @@
 <colAssociation fkAssociation="CB47110F-A6E4-E3DD-0C00-79394F413D7E" referredColumn="6E5AB59F-5282-219B-4282-4F2FFE824D8F"/>
 </associations>
 </Column>
+<Column name="CODIGO_LUGAR" id="B995C431-62F5-6E3C-F27D-66D5C09538BC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:26:52 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E09CBCCF-7F1A-4942-F5FC-6A50BD56713D" referredColumn="52E0C4B8-C4C1-D190-F148-EEBCFF1E5ECB"/>
+</associations>
+</Column>
 <Column name="NOMBRE" id="55022CB1-4958-09B7-5D0C-4647670E7733">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-08 23:22:56 UTC</createdTime>
@@ -124,6 +138,16 @@
 <colUsage columnID="326F0CFD-AB99-8D73-271D-5ACB8535E78A"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="21063291-4BC5-95C8-56B9-817CE85AE75E" name="CORREO_IDX">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-11 23:35:33 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B81BF4F-F9C6-BD83-5ED8-4B1503A1EEAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="1250E29D-18CE-C93E-5C34-5DF24514EE45" name="TBL_USUARIOS_TBL_GENEROS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-08 23:33:19 UTC</createdTime>
@@ -132,6 +156,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="19A2B248-DF15-60F8-7D9E-4FCF5717882D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DB61E2F-24FA-BFC9-CEEB-7C56D9FA516F" name="TBL_USUARIOS_TBL_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-18 23:26:52 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B995C431-62F5-6E3C-F27D-66D5C09538BC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

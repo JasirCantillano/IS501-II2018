@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F66B2EA7-86E6-12B8-89C1-80CF16DF8D3A" name="TBL_CATEGORIAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-11 23:22:22 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CATEGORIA" id="2D9ABF95-C53E-AD61-35FA-0C052E274D32">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-11 23:23:20 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CATEGORIA" id="F565916C-B662-E57C-88F9-7F35B2D66F98">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-11 23:23:20 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C2D1F8C-6EF2-EC7F-BC6A-60DF27C06E55" name="TBL_CATEGORIAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-11 23:23:20 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D9ABF95-C53E-AD61-35FA-0C052E274D32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

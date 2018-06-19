@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="375AA0DD-353C-7828-0A49-2EC6E997F713" containerWithKeyObject="FAB54AE2-1B12-362A-A503-2A0580372FE7" localFKIndex="F0D96EC3-FA64-D915-A898-10E9B2565BB0" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:34:02 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_LUGARES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9AE2F378-87B7-7510-630D-52429C331C42</referredTableID>
+<keyObject>CE10CA25-F2B9-7E07-5774-ABA60632B1B6</keyObject>
+<referredKeyID>CE10CA25-F2B9-7E07-5774-ABA60632B1B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_LUGAR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

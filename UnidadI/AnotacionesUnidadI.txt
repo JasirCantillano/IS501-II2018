@@ -18,3 +18,46 @@ Cardinalidades:
 1:1 Uno a uno
 1:N o N:1 Uno a muchos o Muchos a uno
 N:M Muchos a muchos
+
+
+Pasos diseñar un modelo relacional.
+
+1. Identificar las entidades o tablas.
+2. Diagramarlas y listar sus atributos respectivos.
+3. Identificar si alguno de los atributos debería ser una tabla.
+4. Relacionar tablas.
+
+
+
+Youtube:
+*Videos
+*Usuarios
+*Formato
+*Genero
+*Restricciones de lugares
+*Lista reproduccion
+Likes y Dislikes para Videos
+Likes y Dislikes para comentarios
+Hashtags
+*Comentarios
+*Comentarios de comentarios
+*Categorias
+Historial
+Trending
+*Canales
+Subtitulos
+Idiomas
+Velocidades
+CAlidades
+Visualizaciones
+Shares
+Redes sociales
+Reportes
+Licencias
+Suscriptores
+Notificaciones
+Historial de busquedas
+*Ubicaciones (Paises y demas)
+Publicidad
+Artistas
+Sugerencias

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="590167AD-BA18-AF8E-2ED4-BDD74F616B29" name="TBL_PAISES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:11:24 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAIS" id="7A4C640A-F80C-568E-85A1-3111DB4D8ED3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:20 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PAIS" id="1D251652-AE5A-E500-1D46-0485B46870B5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:20 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="D88BAD8A-6B68-9638-713E-B59825610FC5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:20 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="4312175F-F01F-95F7-A88D-3B422BFD11D0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:20 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="430FCEF4-AC9D-A5FA-7239-2A19C31F0345">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:20 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="073B6641-EE4C-39C3-08FA-ECF93BA5984B" name="TBL_PAISES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:20 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A4C640A-F80C-568E-85A1-3111DB4D8ED3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

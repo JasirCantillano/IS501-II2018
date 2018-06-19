@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AE2F378-87B7-7510-630D-52429C331C42" name="TBL_TIPOS_LUGARES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:33:01 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_LUGAR" id="C138B6A4-2259-1A49-790E-9D6D70570801">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:33:41 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_LUGAR" id="21D37115-E78A-48FC-E279-2C94586A57FD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:33:41 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE10CA25-F2B9-7E07-5774-ABA60632B1B6" name="TBL_TIPOS_LUGARES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:33:50 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C138B6A4-2259-1A49-790E-9D6D70570801"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

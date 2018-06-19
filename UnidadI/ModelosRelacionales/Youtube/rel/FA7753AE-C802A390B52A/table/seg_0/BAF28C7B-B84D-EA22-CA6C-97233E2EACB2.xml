@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAF28C7B-B84D-EA22-CA6C-97233E2EACB2" name="TBL_DEPARTAMENTOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:39 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DEPARTAMENTO" id="A03003C1-FC05-6258-A579-8C96CB10D1EB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:39 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PAIS" id="1257FB43-C1EF-9665-0B36-66A4F5782E1A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:15:15 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D03F8E2-FC47-6617-049B-2856A0AD583B" referredColumn="7A4C640A-F80C-568E-85A1-3111DB4D8ED3"/>
+</associations>
+</Column>
+<Column name="NOMBRE_DEPARTAMENTO" id="1F843C51-145D-182B-345F-8CA60BA4CC8B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:39 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="DEC5765C-2A15-4308-CB26-8B9943A21FB1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:39 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="4BAE43B1-6C89-7229-D750-AF8BEC246AD3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:39 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="35D96869-B711-76F4-AE66-CE55F13A6FED">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:39 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54876746-C891-8C9B-C1C6-394C0CCE19FD" name="TBL_PAISESv1_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:13:39 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A03003C1-FC05-6258-A579-8C96CB10D1EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C1A3C6E-D0EB-7BFB-EA77-7330EB908C41" name="TBL_DEPARTAMENTOS_TBL_PAISES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-15 23:15:15 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1257FB43-C1EF-9665-0B36-66A4F5782E1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

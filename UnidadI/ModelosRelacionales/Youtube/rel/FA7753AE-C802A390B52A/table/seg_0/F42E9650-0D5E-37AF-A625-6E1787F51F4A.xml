@@ -32,7 +32,7 @@
 <colAssociation fkAssociation="744C38FF-EDEE-8C55-FF98-8915CDA9F2C7" referredColumn="326F0CFD-AB99-8D73-271D-5ACB8535E78A"/>
 </associations>
 </Column>
-<Column name="NULL SET GENERATED_257" id="E06CD5F5-7977-BEDB-2350-3DC59210D9FE">
+<Column name="CODIGO_FORMATO" id="E06CD5F5-7977-BEDB-2350-3DC59210D9FE">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-08 23:46:10 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
