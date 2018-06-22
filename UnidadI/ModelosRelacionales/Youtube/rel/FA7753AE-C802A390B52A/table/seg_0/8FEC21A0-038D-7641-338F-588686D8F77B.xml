@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FEC21A0-038D-7641-338F-588686D8F77B" name="TBL_METODOS_PAGO">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:18:14 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_METODO_PAGO" id="15FB4162-9253-B774-FB30-A8BEA7079E40">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:18:40 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_METODO_PAGO" id="406C62FE-1473-C902-540C-87EBCEB6280F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:18:40 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C77CD45-D112-5D04-5047-BB1E45DF4233" name="TBL_METODOS_PAGO_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:18:49 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15FB4162-9253-B774-FB30-A8BEA7079E40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

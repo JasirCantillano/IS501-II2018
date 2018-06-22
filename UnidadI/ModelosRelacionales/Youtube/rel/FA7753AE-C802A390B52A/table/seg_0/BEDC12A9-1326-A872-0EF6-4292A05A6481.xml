@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEDC12A9-1326-A872-0EF6-4292A05A6481" name="TBL_TARJETAS_PAGO">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:22:18 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TARJETA" id="AB956AF7-B2DB-F13E-DF33-FF1FC8736CA9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:25:59 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_TARJETA" id="CEF7BDC3-BDCC-ABA1-93D4-3F669B14DFD2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:29:54 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="157673E1-12B0-9B8A-4D37-932B3BFF63FD" referredColumn="33B3E29E-61A4-64F7-1AC7-D721F25F4AB7"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="02FD0FDF-340E-9336-ADCB-121B7CD471B0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:33:39 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45A27828-3D1D-30B4-F07B-0F4640352420" referredColumn="326F0CFD-AB99-8D73-271D-5ACB8535E78A"/>
+</associations>
+</Column>
+<Column name="CODIGO_MARCA_TARJETA" id="0DE2A777-A0A9-FAA5-2821-0129C75F055B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:34:58 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0B7CDD6-C933-BBDE-6DF4-09FEA79717F6" referredColumn="CCCCA7FF-E72D-9830-754E-70240CABEEAE"/>
+</associations>
+</Column>
+<Column name="NUMERO_TARJETA" id="780DBA4E-D34D-98A4-898C-5932F12A1BE2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:25:59 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VENCIMIENTO" id="2057676E-3993-F4F6-D73C-00FA5025BB32">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:25:59 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CSV" id="A0EE68A1-4FBF-4C3F-7981-5D03D9F48AC7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:25:59 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78DF9DF8-0EEE-6DD2-886B-CAE7B65DF9D0" name="TBL_TARJETAS_PAGO_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:25:59 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB956AF7-B2DB-F13E-DF33-FF1FC8736CA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49451C25-0DB8-D6EE-A52B-5C3FCAE7EEDC" name="TBL_TARJETAS_PAGO_TBL_TIPOS_TARJETAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:29:54 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEF7BDC3-BDCC-ABA1-93D4-3F669B14DFD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBA9EB67-E6C7-52CE-2936-48B461463E04" name="TBL_TARJETAS_PAGO_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:33:39 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02FD0FDF-340E-9336-ADCB-121B7CD471B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8A8B9BC-4104-A46C-02B9-CE7B657D5DB3" name="TBL_TARJETAS_PAGO_TBL_MARCAS_TARJETAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:34:58 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DE2A777-A0A9-FAA5-2821-0129C75F055B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

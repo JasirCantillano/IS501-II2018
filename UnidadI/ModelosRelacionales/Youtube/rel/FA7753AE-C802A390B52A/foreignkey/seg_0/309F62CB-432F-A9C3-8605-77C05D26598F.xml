@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="525D788D-9C5A-30FC-21A8-A38C4D2B17F5" containerWithKeyObject="F247C492-3693-8799-39D9-F1C3968EC4A6" localFKIndex="E2C1C5A9-FCB8-3B61-5E71-1A194AEB93B7" name="TBL_CANALES_TBL_USUARIOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="309F62CB-432F-A9C3-8605-77C05D26598F" containerWithKeyObject="2A5999EC-AEE2-FEE8-7855-100E46F931D0" localFKIndex="70ABD274-B560-7316-0428-1E99C83574CE" name="TBL_SUSCRIPTORES_TBL_USUARIOS_FK">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2018-06-13 23:31:24 UTC</createdTime>
+<createdTime>2018-06-22 23:31:58 UTC</createdTime>
 <ownerDesignName>Youtube</ownerDesignName>
 <referredTableLongName>TBL_USUARIOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91A27672-56B3-4B30-6B5E-87A1DF271583" containerWithKeyObject="F42E9650-0D5E-37AF-A625-6E1787F51F4A" localFKIndex="351DB439-67B7-0FEF-4B87-AE71D872B3F8" name="TBL_VIDEOS_TBL_LICENCIAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:36:46 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<referredTableLongName>TBL_LICENCIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA7F6C2C-1C7C-EAAE-673F-3132F0059C28</referredTableID>
+<keyObject>6502CDBC-0280-5AEC-224F-4D98E6807EB9</keyObject>
+<referredKeyID>6502CDBC-0280-5AEC-224F-4D98E6807EB9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_LICENCIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

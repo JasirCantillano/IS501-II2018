@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03BB5664-368C-BF0E-C441-E93841534AAE" name="TBL_USUARIOS_PREMIUM">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-19 23:24:56 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="1D6F07A1-9EA0-56E2-A820-D7C7C3D2B0B8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-19 23:33:10 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9191BE7C-BDB5-9D16-162C-27E457E07F87" referredColumn="326F0CFD-AB99-8D73-271D-5ACB8535E78A"/>
+</associations>
+</Column>
+<Column name="CODIGO_TARJETA_ACTUAL" id="B98E9535-DEFF-ED72-FB6B-6070BAF1ACE7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:37:55 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B06E3978-DC0F-1678-36E5-C891DD0E0E18" referredColumn="AB956AF7-B2DB-F13E-DF33-FF1FC8736CA9"/>
+</associations>
+</Column>
+<Column name="CODIGO_METODO_PAGO_ACTUAL" id="EA668D58-B929-7AA5-4584-17F8F53F704D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:38:46 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="297DB224-58C3-8445-E476-582265830676" referredColumn="15FB4162-9253-B774-FB30-A8BEA7079E40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C901F476-3083-AB17-E3EB-730C9F4504AC" name="TBL_USUARIOS_PREMIUM_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-19 23:34:11 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D6F07A1-9EA0-56E2-A820-D7C7C3D2B0B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2FBCED3-4EC4-7000-F690-095ACE060CA0" name="TBL_USUARIOS_PREMIUM_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-19 23:33:10 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D6F07A1-9EA0-56E2-A820-D7C7C3D2B0B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="688D2EE5-44F3-459E-6833-2A32BE1B5F50" name="TBL_USUARIOS_PREMIUM_TBL_TARJETAS_PAGO_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:37:55 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B98E9535-DEFF-ED72-FB6B-6070BAF1ACE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7A627A6-E3A5-AECA-6878-DFA32AAAA448" name="TBL_USUARIOS_PREMIUM_TBL_METODOS_PAGO_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:38:46 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA668D58-B929-7AA5-4584-17F8F53F704D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

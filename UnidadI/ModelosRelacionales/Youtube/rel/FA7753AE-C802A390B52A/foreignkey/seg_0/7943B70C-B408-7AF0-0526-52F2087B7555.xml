@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7943B70C-B408-7AF0-0526-52F2087B7555" containerWithKeyObject="21E95DA0-3C20-C3A6-4F5C-B356241F92EE" localFKIndex="F7E03171-0621-70F7-2B0F-8A8EC8A6DE58" name="TBL_PAGOS_TBL_TARJETAS_PAGO_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:49:17 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<referredTableLongName>TBL_TARJETAS_PAGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BEDC12A9-1326-A872-0EF6-4292A05A6481</referredTableID>
+<keyObject>78DF9DF8-0EEE-6DD2-886B-CAE7B65DF9D0</keyObject>
+<referredKeyID>78DF9DF8-0EEE-6DD2-886B-CAE7B65DF9D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TARJETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

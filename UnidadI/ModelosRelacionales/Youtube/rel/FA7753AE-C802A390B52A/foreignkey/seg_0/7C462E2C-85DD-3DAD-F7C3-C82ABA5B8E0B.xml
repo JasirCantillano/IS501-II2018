@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C462E2C-85DD-3DAD-F7C3-C82ABA5B8E0B" containerWithKeyObject="FE6787D0-CE2A-98F3-EDDC-A220EA5E827B" localFKIndex="400B5EF8-99A0-6669-1C7A-D8636021701D" name="TBL_REPORTES_CONTENIDO_TBL_CAUSAS_REPORTE_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:38:19 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<referredTableLongName>TBL_CAUSAS_REPORTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0552371D-58CD-64C2-B9E3-E525E17277C2</referredTableID>
+<keyObject>3AA6BEEB-DAAF-D510-21B0-9F9A071D5B65</keyObject>
+<referredKeyID>3AA6BEEB-DAAF-D510-21B0-9F9A071D5B65</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_CAUSA_REPORTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

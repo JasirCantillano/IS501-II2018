@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32E81ADB-8B23-07E3-F83B-3D35BFEEDA10" name="TBL_SHARES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:32:21 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="865FC262-8C72-2370-5687-69A8AC47983C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:13:36 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9C050F0-9190-49F3-E1D9-21246BD53A52" referredColumn="326F0CFD-AB99-8D73-271D-5ACB8535E78A"/>
+</associations>
+</Column>
+<Column name="CODIGO_VIDEO" id="7C6A96F2-AACB-D0C8-15A8-EA4ECEA09A8A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:14:03 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02AB5285-E398-BB49-B7D3-8F02A2E969F7" referredColumn="4BD1E78D-66F9-6E29-91D5-738584358575"/>
+</associations>
+</Column>
+<Column name="CODIGO_PLATAFORMA" id="EFE8A9C0-EB37-22B9-64F6-B98C598114AA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:14:51 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91239D67-2BA4-E5B5-3D73-523C01C3C45E" referredColumn="3AF025B7-4BE5-5836-80F6-EBFC539720AD"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_SHARE" id="FBD41DD7-0C08-94C6-5C61-5FFAE60B1681">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:33:12 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0BA3FAF-5869-2147-09AF-036BB0919240" name="TBL_SHARES_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:13:36 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="865FC262-8C72-2370-5687-69A8AC47983C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D77E598C-BAE9-E867-829E-906C99F0F4AE" name="TBL_SHARES_TBL_VIDEOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:14:03 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C6A96F2-AACB-D0C8-15A8-EA4ECEA09A8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DB676AD-8C7F-48B2-DAA9-36A10DB7BE42" name="TBL_SHARES_TBL_PLATAFORMAS_SHARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:14:51 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFE8A9C0-EB37-22B9-64F6-B98C598114AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

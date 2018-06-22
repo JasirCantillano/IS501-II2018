@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE1EF26A-FAEC-E822-2059-A04D46242616" name="TBL_IDIOMAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:19:20 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_IDIOMA" id="7DDB0BF0-3848-4D89-9420-BE772712D8D3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:19:57 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_IDIOMA" id="67710A98-57D4-8C9C-FB8E-32F6A7530E11">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:19:57 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03453D79-D0A2-2902-EC0D-5D2F23286E6A" name="TBL_IDIOMAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:19:57 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DDB0BF0-3848-4D89-9420-BE772712D8D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

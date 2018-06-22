@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5B88596-03DE-63AF-88C7-7D6BCD6BB4F1" name="TBL_PLATAFORMAS_SHARES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:33:18 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PLATAFORMA" id="3AF025B7-4BE5-5836-80F6-EBFC539720AD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:34:08 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PLATAFORMA" id="432E0E12-49A5-8674-A7B0-C796A1047680">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:34:08 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL" id="40275598-AEEA-AC03-2DC9-58F43C019EBB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:34:08 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICONO" id="265584C2-C450-3433-9C07-E9BC0BC76CD7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:34:08 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29AB0AD6-B102-7D56-5466-38A777448D14" name="TBL_PLATAFORMAS_SHARES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:34:08 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AF025B7-4BE5-5836-80F6-EBFC539720AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

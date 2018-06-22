@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03AF40D3-8B4A-FCE9-55FF-5228E96828B4" name="TBL_SUBTITULOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:24:22 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SUBTITULO" id="AB9C6F44-CA90-5B5E-7D48-3575A0AB4CEB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:25:07 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_IDIOMA" id="EA8921C2-FF4C-6FD9-156F-89DF563B5580">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:17:25 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="424D3FD0-37CB-B693-E39E-B5BEABDC30BB" referredColumn="7DDB0BF0-3848-4D89-9420-BE772712D8D3"/>
+</associations>
+</Column>
+<Column name="CODIGO_VIDEO" id="CB6C3EBE-6664-A865-F4C0-E04957B87012">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:19:16 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E58AD90B-89B0-C34C-50F5-C2B9FED31D14" referredColumn="4BD1E78D-66F9-6E29-91D5-738584358575"/>
+</associations>
+</Column>
+<Column name="SUBTITULOS" id="A60DBA3A-EAA8-7577-8B88-5BE6C9C0E25F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:25:07 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18726E52-0144-CD56-1770-221539A3E6B1" name="TBL_SUBTITULOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 16:25:07 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB9C6F44-CA90-5B5E-7D48-3575A0AB4CEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5132C66C-8607-42A6-A240-D138073B5A2A" name="TBL_SUBTITULOS_TBL_IDIOMAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:17:25 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA8921C2-FF4C-6FD9-156F-89DF563B5580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EEBA9C5-18F7-9AD1-06FB-928F2A1CA558" name="TBL_SUBTITULOS_TBL_VIDEOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:19:16 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB6C3EBE-6664-A865-F4C0-E04957B87012"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

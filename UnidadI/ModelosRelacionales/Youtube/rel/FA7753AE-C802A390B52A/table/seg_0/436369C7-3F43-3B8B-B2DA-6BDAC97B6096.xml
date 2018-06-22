@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="436369C7-3F43-3B8B-B2DA-6BDAC97B6096" name="TBL_MARCAS_TARJETAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:30:22 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MARCA_TARJETA" id="CCCCA7FF-E72D-9830-754E-70240CABEEAE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:31:04 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MARCA" id="CB70E9AE-8A88-3D8C-6CF6-BEBAF7DC11EC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:31:04 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15B7AB0D-A8C9-DDDA-CD3D-652F1506F4E5" name="TBL_MARCAS_TARJETAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:31:04 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCCCA7FF-E72D-9830-754E-70240CABEEAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

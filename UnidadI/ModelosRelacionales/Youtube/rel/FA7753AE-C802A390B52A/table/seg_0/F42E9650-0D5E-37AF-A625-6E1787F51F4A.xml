@@ -46,6 +46,20 @@
 <colAssociation fkAssociation="5D17309B-3F41-EE54-1345-27D088E13383" referredColumn="893E16EA-6690-6E2E-C32C-7701A259A610"/>
 </associations>
 </Column>
+<Column name="CODIGO_LICENCIA" id="6D07034A-88DA-360A-EE53-03153703BDB1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:36:46 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91A27672-56B3-4B30-6B5E-87A1DF271583" referredColumn="DF48FD65-CA08-A4DE-F6CF-DDA98B7AFDE8"/>
+</associations>
+</Column>
 <Column name="NOMBRE_VIDEO" id="87EA8CD8-8B4D-047C-29B3-514B149A81B4">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-08 23:43:54 UTC</createdTime>
@@ -177,6 +191,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E06CD5F5-7977-BEDB-2350-3DC59210D9FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="351DB439-67B7-0FEF-4B87-AE71D872B3F8" name="TBL_VIDEOS_TBL_LICENCIAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:36:46 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D07034A-88DA-360A-EE53-03153703BDB1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CDB7EB7-6C8A-84B3-FFAA-0125D08D8119" name="TBL_TIPOS_NOTIFICACIONES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:23:31 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_42</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_NOTIFICACION" id="569891E4-E14D-AB7A-56F8-18AAF44F5661">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:24:04 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_NOTIFICACION" id="5CFFB262-9F8F-4866-3585-0655B18AEFE7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:24:04 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE168987-FA57-BC51-B071-24AB2CA184DB" name="TBL_TIPOS_NOTIFICACIONES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:24:13 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="569891E4-E14D-AB7A-56F8-18AAF44F5661"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

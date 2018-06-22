@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA84F7D0-13B7-FBFE-B767-5D11BD314E86" name="TBL_TIPOS_TARJETAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:28:53 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_TARJETA" id="33B3E29E-61A4-64F7-1AC7-D721F25F4AB7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:29:38 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_TARJETA" id="E7F0C026-4913-35F3-7D58-DA307DDE2B1E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:29:38 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C46629B5-C6AF-E7C7-A771-82D7FC274A95" name="TBL_TIPOS_TARJETAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:29:48 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33B3E29E-61A4-64F7-1AC7-D721F25F4AB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

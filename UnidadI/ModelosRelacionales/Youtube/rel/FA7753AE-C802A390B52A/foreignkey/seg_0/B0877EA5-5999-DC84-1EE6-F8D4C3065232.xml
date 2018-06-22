@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0877EA5-5999-DC84-1EE6-F8D4C3065232" containerWithKeyObject="417256F3-91E5-FF4A-EEAA-C1FC5C1F6AF3" localFKIndex="83DD7188-0D18-AD5C-10CC-910EABB1BEE8" name="TBL_NOTIFICACIONES_TBL_TIPOS_NOTIFICACIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:24:18 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_NOTIFICACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5CDB7EB7-6C8A-84B3-FFAA-0125D08D8119</referredTableID>
+<keyObject>FE168987-FA57-BC51-B071-24AB2CA184DB</keyObject>
+<referredKeyID>FE168987-FA57-BC51-B071-24AB2CA184DB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_NOTIFICACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

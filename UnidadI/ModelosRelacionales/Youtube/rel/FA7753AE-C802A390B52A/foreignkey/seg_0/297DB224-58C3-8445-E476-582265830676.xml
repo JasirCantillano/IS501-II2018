@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="297DB224-58C3-8445-E476-582265830676" containerWithKeyObject="03BB5664-368C-BF0E-C441-E93841534AAE" localFKIndex="C7A627A6-E3A5-AECA-6878-DFA32AAAA448" name="TBL_USUARIOS_PREMIUM_TBL_METODOS_PAGO_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-20 23:38:46 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<referredTableLongName>TBL_METODOS_PAGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8FEC21A0-038D-7641-338F-588686D8F77B</referredTableID>
+<keyObject>5C77CD45-D112-5D04-5047-BB1E45DF4233</keyObject>
+<referredKeyID>5C77CD45-D112-5D04-5047-BB1E45DF4233</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_METODO_PAGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

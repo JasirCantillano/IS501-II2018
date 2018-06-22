@@ -36,20 +36,19 @@ Youtube:
 *Genero
 *Restricciones de lugares
 *Lista reproduccion
-Likes y Dislikes para Videos
-Likes y Dislikes para comentarios
+*Likes y Dislikes para Videos
+*Likes y Dislikes para comentarios
 Hashtags
 *Comentarios
 *Comentarios de comentarios
 *Categorias
-Historial
+Historial Visualizaciones
 Trending
 *Canales
 Subtitulos
 Idiomas
 Velocidades
 CAlidades
-Visualizaciones
 Shares
 Redes sociales
 Reportes

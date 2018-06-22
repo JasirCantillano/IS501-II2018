@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="424D3FD0-37CB-B693-E39E-B5BEABDC30BB" containerWithKeyObject="03AF40D3-8B4A-FCE9-55FF-5228E96828B4" localFKIndex="5132C66C-8607-42A6-A240-D138073B5A2A" name="TBL_SUBTITULOS_TBL_IDIOMAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-22 23:17:25 UTC</createdTime>
+<ownerDesignName>Youtube</ownerDesignName>
+<referredTableLongName>TBL_IDIOMAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE1EF26A-FAEC-E822-2059-A04D46242616</referredTableID>
+<keyObject>03453D79-D0A2-2902-EC0D-5D2F23286E6A</keyObject>
+<referredKeyID>03453D79-D0A2-2902-EC0D-5D2F23286E6A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_IDIOMA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
