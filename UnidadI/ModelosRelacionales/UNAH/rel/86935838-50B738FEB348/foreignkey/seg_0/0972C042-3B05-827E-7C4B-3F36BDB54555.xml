@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0972C042-3B05-827E-7C4B-3F36BDB54555" containerWithKeyObject="7A226960-BB10-08B4-B327-A2E1761DB0CC" localFKIndex="8B7FE294-15C6-EAB8-917B-50E29E8247FC" name="TBL_ASIGNATURAS_TBL_AREAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:44:51 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<referredTableLongName>TBL_AREAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E3191BAD-704C-FDC3-D0E4-4036E98C9FC7</referredTableID>
+<keyObject>39A9FC49-F9C5-DE85-6E79-641698EC9F5E</keyObject>
+<referredKeyID>39A9FC49-F9C5-DE85-6E79-641698EC9F5E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_AREA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

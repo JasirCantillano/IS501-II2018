@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="005E9C26-3402-3A61-1224-CBDF4A858A35" name="TBL_CARRERAS_X_MAESTRO">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:46:21 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERSONA" id="EA82708A-4B4B-E4DE-E738-DD6536716A9F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:47:22 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9194D4EE-B7BE-B379-B8AC-463CB5651244" referredColumn="77241552-A6E3-CB15-B908-689D26459300"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="85A5BE24-0B6A-0B1B-232E-F8E767964646">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:47:27 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E886D27C-8B7C-45ED-01C1-70BB2CE81A0B" referredColumn="CE3AA321-17A9-6F83-FB79-CAE8AC08E8B5"/>
+</associations>
+</Column>
+<Column name="FECHA_REGISTRO_CARRERA" id="73F030AF-3FC6-C8B5-08FE-0E4E5F133954">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:46:21 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_CLASES" id="EA6B4597-4374-DA8E-E831-595895180028">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:46:21 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF0204E2-FAC9-F949-9421-6CAC55BA9939" name="TBL_CARRERAS_X_MAESTRO_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:48:08 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA82708A-4B4B-E4DE-E738-DD6536716A9F"/>
+<colUsage columnID="85A5BE24-0B6A-0B1B-232E-F8E767964646"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEBD4A7A-AE69-E74E-160F-21721EF0337A" name="TBL_CARRERAS_X_MAESTRO_TBL_MAESTROS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:47:22 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA82708A-4B4B-E4DE-E738-DD6536716A9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59F56945-DEE8-38B2-6C31-7BB941405D26" name="TBL_CARRERAS_X_MAESTRO_TBL_CARRERAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:47:27 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85A5BE24-0B6A-0B1B-232E-F8E767964646"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

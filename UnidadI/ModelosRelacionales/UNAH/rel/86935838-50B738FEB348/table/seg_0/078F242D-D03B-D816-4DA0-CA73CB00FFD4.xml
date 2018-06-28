@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="078F242D-D03B-D816-4DA0-CA73CB00FFD4" name="TBL_FACULTADES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:29:38 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FACULTAD" id="1FBEAA88-FC30-A69F-22EF-CCF98C66CAF5">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:32:44 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_FACULTAD" id="9BBFC9B5-2747-0F8A-EE10-CCEB043969AD">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:32:44 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="BA599E1B-DA41-B55C-B138-97FDFC3CF9E5">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:34:12 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EDIFICIO" id="A570C85A-469A-06E8-B2EB-0628ED50FFFA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:44:09 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14B77D50-ED6C-10FC-545C-3F8D83CA21E7" referredColumn="8B0123A7-4165-ED45-0AF9-3FAA289E2473"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62056141-CF4C-5A6E-E98F-F31E6FBADCB4" name="TBL_FACULTADES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:34:24 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FBEAA88-FC30-A69F-22EF-CCF98C66CAF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE49CF85-CD17-8599-6B43-83D58159D928" name="TBL_FACULTADES_TBL_EDIFICIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:44:09 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A570C85A-469A-06E8-B2EB-0628ED50FFFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

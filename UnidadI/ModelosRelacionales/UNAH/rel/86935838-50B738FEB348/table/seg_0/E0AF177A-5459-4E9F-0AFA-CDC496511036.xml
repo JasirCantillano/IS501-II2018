@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0AF177A-5459-4E9F-0AFA-CDC496511036" name="TBL_DETALLE_EVALUACION">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:22:15 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DETALLE_EVALUACION" id="77C81FB8-617A-352A-6089-BCDF23D5E8D1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:26:29 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_NOTA" id="B56210B4-CEB3-C713-08AA-A818E7222F3E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:23:09 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_EVALUACION" id="F7F4B763-E051-EA4B-5032-F02D71E90C9E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:17:45 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="719E4319-B93C-C28E-5A95-5CB55CC5F3FE" referredColumn="244BFFF9-E6EE-D24A-C844-B77E784FCC72"/>
+</associations>
+</Column>
+<Column name="CODIGO_HISTORIAL" id="72318124-67CC-A9B7-4A2D-7B0B8920F8B6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:19:21 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E15C55E4-5064-E92A-0FB7-28B0B99B1E80" referredColumn="0C0D50A2-E65D-3DAB-4281-E9ADDC336541"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F52A81B9-FCDB-CDEA-8598-DED275E3C4C5" name="TBL_DETALLE_EVALUACION_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:26:29 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77C81FB8-617A-352A-6089-BCDF23D5E8D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F006AF81-2F00-391D-0E68-764B46125C69" name="TBL_DETALLE_EVALUACION_TBL_TIPOS_EVALUACIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:17:45 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7F4B763-E051-EA4B-5032-F02D71E90C9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6911174-E946-338B-66C7-66D6286C0299" name="TBL_DETALLE_EVALUACION_TBL_HISTORIAL_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:19:21 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72318124-67CC-A9B7-4A2D-7B0B8920F8B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

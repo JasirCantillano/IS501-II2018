@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A226960-BB10-08B4-B327-A2E1761DB0CC" name="TBL_ASIGNATURAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:18:11 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ASIGNATURA" id="4FFD730C-9D87-AF90-80DD-72C4645B0D59">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ALTERNO" id="B215ECC9-018E-1671-79C7-BA0976F1D13F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_ASIGNATURA" id="D3018B29-3DBA-9AA9-31A1-2913347BE65E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:12:59 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6804960-D388-44DD-1C66-9FB2280C0821" referredColumn="FE8AF435-5A22-0B44-3717-F25532FCADE3"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="17D924BE-4030-5AD0-461F-4963D972CEC2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:24:37 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="965F35E2-B387-7953-B968-ABC8EFE06399" referredColumn="CE3AA321-17A9-6F83-FB79-CAE8AC08E8B5"/>
+</associations>
+</Column>
+<Column name="CODIGO_AREA" id="736A762B-3E3B-AC2D-DA8C-539374230613">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:44:51 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0972C042-3B05-827E-7C4B-3F36BDB54555" referredColumn="71D2D9B1-44B8-0969-1AA9-C68B1668B19E"/>
+</associations>
+</Column>
+<Column name="NOMBRE_ASIGNATURA" id="DDC38D0E-6C51-C6F7-B19C-5D0BA832CE55">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_UNIDADES_VALORATIVAS" id="FFBCA58A-7EBB-9FAD-8BA6-2614ACE84227">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAS" id="E7F0AEFE-58BB-67DD-9CF8-44D31682F231">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9738748F-EB26-0C73-5A22-49C42CD04CB0" name="TBL_ASIGNATURAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FFD730C-9D87-AF90-80DD-72C4645B0D59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5073DB7-BDE6-83E2-481B-2EE070A16DD9" name="TBL_ASIGNATURAS_TBL_TIPO_ASIGNATURA_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:12:58 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3018B29-3DBA-9AA9-31A1-2913347BE65E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFBAC5C4-62D8-DBD2-A345-60CE1CE2C8DC" name="TBL_ASIGNATURAS_TBL_CARRERAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:24:37 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17D924BE-4030-5AD0-461F-4963D972CEC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B7FE294-15C6-EAB8-917B-50E29E8247FC" name="TBL_ASIGNATURAS_TBL_AREAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:44:51 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="736A762B-3E3B-AC2D-DA8C-539374230613"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

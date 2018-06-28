@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6D75FB2-92BE-C71E-2064-A48BF1D25BE6" containerWithKeyObject="57596495-6C6B-1CF1-16E2-23C91EE74784" localFKIndex="1E8F98E7-5019-A27B-C998-7BF11497B3B2" name="TBL_EMPLEADOS_TBL_PLAZAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:24:10 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<referredTableLongName>TBL_PLAZAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5601F028-F373-6C04-1532-387BCE218FF6</referredTableID>
+<keyObject>B88BBC3A-D36B-14FF-2AF2-43FF5C89C4D5</keyObject>
+<referredKeyID>B88BBC3A-D36B-14FF-2AF2-43FF5C89C4D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PLAZA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

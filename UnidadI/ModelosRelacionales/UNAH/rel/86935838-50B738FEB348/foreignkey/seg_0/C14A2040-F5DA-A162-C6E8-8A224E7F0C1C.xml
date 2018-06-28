@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C14A2040-F5DA-A162-C6E8-8A224E7F0C1C" containerWithKeyObject="57596495-6C6B-1CF1-16E2-23C91EE74784" localFKIndex="452235CF-1E1D-09A6-EAF9-7909876A540E" name="TBL_EMPLEADOS_TBL_PERSONAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:18:41 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<referredTableLongName>TBL_PERSONAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F8F781E-1275-19D6-DC56-6440F2229132</referredTableID>
+<keyObject>6C81915C-3252-48C7-BBF2-37B510F1F944</keyObject>
+<referredKeyID>6C81915C-3252-48C7-BBF2-37B510F1F944</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PERSONA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

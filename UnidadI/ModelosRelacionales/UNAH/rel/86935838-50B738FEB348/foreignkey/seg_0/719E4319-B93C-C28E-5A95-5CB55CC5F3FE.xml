@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="719E4319-B93C-C28E-5A95-5CB55CC5F3FE" containerWithKeyObject="E0AF177A-5459-4E9F-0AFA-CDC496511036" localFKIndex="F006AF81-2F00-391D-0E68-764B46125C69" name="TBL_DETALLE_EVALUACION_TBL_TIPOS_EVALUACIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:17:45 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_EVALUACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>844ACEF5-BDD4-660E-CAB4-535BEEFAB2C6</referredTableID>
+<keyObject>E33C260A-9F1C-B55B-152C-A50306DD6EB9</keyObject>
+<referredKeyID>E33C260A-9F1C-B55B-152C-A50306DD6EB9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_EVALUACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

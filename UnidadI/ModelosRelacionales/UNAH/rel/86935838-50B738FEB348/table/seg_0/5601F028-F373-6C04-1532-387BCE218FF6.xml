@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5601F028-F373-6C04-1532-387BCE218FF6" name="TBL_PLAZAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:22:13 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PLAZA" id="972E8CAB-DCB3-05C2-C77A-CE243569165C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:23:50 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PLAZA" id="97C3050D-1FF2-A686-44C8-5CE61E496D5A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:23:50 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_BASE" id="2D1C4467-4949-DA28-B2F1-AEBDDBC2987A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:23:50 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CARGO" id="09ED581C-3C9C-46C6-8581-0F46FF26B613">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:24:04 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B258ECBE-9F58-2CA6-EB48-A91BC2BFCE02" referredColumn="A4648EE9-3297-B035-9557-DAAD6686B19A"/>
+</associations>
+</Column>
+<Column name="CODIGO_PLAZA_SUPERIOR" id="B129E079-BDD5-D710-A8A9-7A85F27FB68A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:32:44 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="167E6B10-61F2-B2DB-BB9A-9572A97C3A84" referredColumn="972E8CAB-DCB3-05C2-C77A-CE243569165C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B88BBC3A-D36B-14FF-2AF2-43FF5C89C4D5" name="TBL_PLAZAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:23:50 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="972E8CAB-DCB3-05C2-C77A-CE243569165C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01DA9D3C-2B6F-7BBA-5A6D-7C6D0CCB9709" name="TBL_PLAZAS_TBL_CARGOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:24:04 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09ED581C-3C9C-46C6-8581-0F46FF26B613"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6A016A6-2C31-AE75-1AE1-6780400A9483" name="TBL_PLAZAS_TBL_PLAZAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:32:44 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B129E079-BDD5-D710-A8A9-7A85F27FB68A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

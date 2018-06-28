@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="638A964C-A89D-15E9-AFCF-624B161BFEDD" name="TBL_REQUISITOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:28:24 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ASIGNATURA" id="8B688747-B4B5-EAAA-2F1E-773DDF075824">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:16:22 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BBBE654-FE7A-6037-372D-9478BB122205" referredColumn="4FFD730C-9D87-AF90-80DD-72C4645B0D59"/>
+</associations>
+</Column>
+<Column name="CODIGO_REQUISITO" id="D0E4B955-7FE6-A69D-B094-964AD096F4AD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:16:27 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E613D9A4-05AE-7439-303D-1C1824DEB805" referredColumn="4FFD730C-9D87-AF90-80DD-72C4645B0D59"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="C7B68A64-E6DE-E917-F482-95F0055F56D9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:17:43 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23A4091C-896F-1394-12E7-10531F3A3358" referredColumn="CE3AA321-17A9-6F83-FB79-CAE8AC08E8B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A8CD7E0-5C67-3444-717E-1B29E5AD039D" name="TBL_REQUISITOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:17:58 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B688747-B4B5-EAAA-2F1E-773DDF075824"/>
+<colUsage columnID="D0E4B955-7FE6-A69D-B094-964AD096F4AD"/>
+<colUsage columnID="C7B68A64-E6DE-E917-F482-95F0055F56D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="857E0FE1-7A8C-FE4C-A438-AB6BB7EB8254" name="TBL_REQUISITOS_TBL_ASIGNATURAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:16:22 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B688747-B4B5-EAAA-2F1E-773DDF075824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F299430-E6E9-D8F1-18C5-E83A8BEA1FCF" name="TBL_REQUISITOS_TBL_ASIGNATURAS_FKv2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:16:27 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0E4B955-7FE6-A69D-B094-964AD096F4AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9B726D2-3118-EB86-9DAF-5B4D1155DA2D" name="TBL_REQUISITOS_TBL_CARRERAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:17:43 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7B68A64-E6DE-E917-F482-95F0055F56D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

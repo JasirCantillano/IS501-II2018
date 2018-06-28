@@ -42,19 +42,19 @@ Hashtags
 *Comentarios
 *Comentarios de comentarios
 *Categorias
-Historial Visualizaciones
-Trending
+*Historial Visualizaciones
+*Trending
 *Canales
-Subtitulos
-Idiomas
+*Subtitulos
+*Idiomas
 Velocidades
 CAlidades
-Shares
-Redes sociales
-Reportes
-Licencias
-Suscriptores
-Notificaciones
+*Shares
+*Redes sociales
+*Reportes
+*Licencias
+*Suscriptores
+*Notificaciones
 Historial de busquedas
 *Ubicaciones (Paises y demas)
 Publicidad

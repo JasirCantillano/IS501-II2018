@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D19E0ACC-614E-E939-CB3F-A3787C3CE04A" containerWithKeyObject="3826744E-9027-A59A-800C-39D9082ECF66" localFKIndex="2E8B0B59-FC43-EF07-F714-ED654FB289E5" name="TBL_MAESTROS_TBL_AREA_ESPECIALIZACIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:37:25 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<referredTableLongName>TBL_AREA_ESPECIALIZACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>40D8E0CB-90AB-B51B-024F-1B658E27F63E</referredTableID>
+<keyObject>DA25DAD7-F425-F77D-56A6-D2552A5307AC</keyObject>
+<referredKeyID>DA25DAD7-F425-F77D-56A6-D2552A5307AC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ESPECIALIZACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
