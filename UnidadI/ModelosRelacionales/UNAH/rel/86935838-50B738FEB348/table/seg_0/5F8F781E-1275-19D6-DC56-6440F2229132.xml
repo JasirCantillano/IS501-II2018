@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F8F781E-1275-19D6-DC56-6440F2229132" name="TBL_PERSONAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F8F781E-1275-19D6-DC56-6440F2229132" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_PERSONAS">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-01-31 19:44:16 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -201,7 +201,7 @@
 <colUsage columnID="A42CD905-EE2E-6EFE-0209-84F5E2FFC1C6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9014337F-E349-308A-4C06-BC8A055F79DC" name="TBL_ALUMNOS_TBL_TIPO_IDENTIFICACION_FK">
+<ind_PK_UK id="9014337F-E349-308A-4C06-BC8A055F79DC" name="ALUM_TIPO_IDEN_FK">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-03 17:05:33 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -211,7 +211,7 @@
 <colUsage columnID="D4080E20-3E89-6E80-0281-EFB2D25C5956"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="15A1C159-7D77-413E-6BA7-06E33CBDA661" name="TBL_ALUMNOS_TBL_ESTADOS_CIVILES_FK">
+<ind_PK_UK id="15A1C159-7D77-413E-6BA7-06E33CBDA661" name="ALUM_ESTA_CIVI_FK">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-03 17:05:40 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>

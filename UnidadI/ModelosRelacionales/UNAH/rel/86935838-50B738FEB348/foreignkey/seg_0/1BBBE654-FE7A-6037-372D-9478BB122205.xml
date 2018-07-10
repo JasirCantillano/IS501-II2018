@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1BBBE654-FE7A-6037-372D-9478BB122205" containerWithKeyObject="638A964C-A89D-15E9-AFCF-624B161BFEDD" localFKIndex="857E0FE1-7A8C-FE4C-A438-AB6BB7EB8254" name="TBL_REQUISITOS_TBL_ASIGNATURAS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1BBBE654-FE7A-6037-372D-9478BB122205" containerWithKeyObject="638A964C-A89D-15E9-AFCF-624B161BFEDD" localFKIndex="857E0FE1-7A8C-FE4C-A438-AB6BB7EB8254" name="REQU_ASIG_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-27 23:16:22 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
-<referredTableLongName>TBL_ASIGNATURAS</referredTableLongName>
+<referredTableLongName>DB_UNAH.TBL_ASIGNATURAS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>7A226960-BB10-08B4-B327-A2E1761DB0CC</referredTableID>
 <keyObject>9738748F-EB26-0C73-5A22-49C42CD04CB0</keyObject>

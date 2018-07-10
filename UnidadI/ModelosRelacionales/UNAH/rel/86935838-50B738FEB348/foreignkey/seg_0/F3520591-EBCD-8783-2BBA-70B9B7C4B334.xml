@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3520591-EBCD-8783-2BBA-70B9B7C4B334" containerWithKeyObject="3826744E-9027-A59A-800C-39D9082ECF66" localFKIndex="A2C3349A-7003-0917-2E33-0F30D1D05513" name="TBL_MAESTROS_TBL_TITULARIDAD_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3520591-EBCD-8783-2BBA-70B9B7C4B334" containerWithKeyObject="3826744E-9027-A59A-800C-39D9082ECF66" localFKIndex="A2C3349A-7003-0917-2E33-0F30D1D05513" name="MAES_TITU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-26 23:36:33 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
-<referredTableLongName>TBL_TITULARIDAD</referredTableLongName>
+<referredTableLongName>DB_UNAH.TBL_TITULARIDAD</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>915CDFF8-A8FB-8980-05A2-86B55704E080</referredTableID>
 <keyObject>63C870B5-2EC7-B814-E2E2-DC2F7645F0F0</keyObject>

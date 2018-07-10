@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31CD3A8F-B440-E023-1963-C0E2E41CB25E" name="TBL_LUGARES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31CD3A8F-B440-E023-1963-C0E2E41CB25E" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_LUGARES">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-03 16:51:58 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -93,7 +93,7 @@
 <colUsage columnID="D3130804-7355-0991-70CE-E53AF2C958F0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2E015756-7174-92AA-A71E-5AEDFD59C0F1" name="TBL_LUGARES_TBL_TIPO_LUGARES_FK">
+<ind_PK_UK id="2E015756-7174-92AA-A71E-5AEDFD59C0F1" name="LUGA_TIPO_LUGA_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-26 23:41:20 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>

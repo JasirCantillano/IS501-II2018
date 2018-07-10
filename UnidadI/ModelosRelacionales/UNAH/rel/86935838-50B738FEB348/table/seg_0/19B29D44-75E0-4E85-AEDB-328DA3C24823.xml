@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19B29D44-75E0-4E85-AEDB-328DA3C24823" name="TBL_MATRICULA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19B29D44-75E0-4E85-AEDB-328DA3C24823" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_MATRICULA">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-08 19:35:51 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -86,7 +86,7 @@
 <colUsage columnID="1A9866B5-EE1C-AC6F-44E7-4A5F9EA6BEBB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5C781002-6C5F-AD90-E51B-D526443E39CA" name="TBL_MATRICULA_TBL_ALUMNOS_FK">
+<ind_PK_UK id="5C781002-6C5F-AD90-E51B-D526443E39CA" name="MATR_ALUM_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-27 23:35:15 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -96,7 +96,7 @@
 <colUsage columnID="8F6A8CB4-49EE-9A29-3019-864FD38048E2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6DABB835-96B7-353F-272F-3509B3C733D0" name="TBL_MATRICULA_TBL_SECCION_FK">
+<ind_PK_UK id="6DABB835-96B7-353F-272F-3509B3C733D0" name="MATR_SECC_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-27 23:35:22 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -106,7 +106,7 @@
 <colUsage columnID="1A9866B5-EE1C-AC6F-44E7-4A5F9EA6BEBB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1733D7EE-5060-B7D4-F056-6AEEFF03D2FB" name="TBL_MATRICULA_TBL_ESTADOS_MATRICULA_FK">
+<ind_PK_UK id="1733D7EE-5060-B7D4-F056-6AEEFF03D2FB" name="MATR_EST_MATR_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-27 23:39:35 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>

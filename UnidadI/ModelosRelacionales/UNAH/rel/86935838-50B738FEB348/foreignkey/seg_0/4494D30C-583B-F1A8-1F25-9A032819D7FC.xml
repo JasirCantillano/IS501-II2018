@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4494D30C-583B-F1A8-1F25-9A032819D7FC" containerWithKeyObject="57596495-6C6B-1CF1-16E2-23C91EE74784" localFKIndex="915D3155-D891-7975-7F26-1E0F6BFAD4E9" name="TBL_EMPLEADOS_TBL_TIPO_EMPLEADO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4494D30C-583B-F1A8-1F25-9A032819D7FC" containerWithKeyObject="57596495-6C6B-1CF1-16E2-23C91EE74784" localFKIndex="915D3155-D891-7975-7F26-1E0F6BFAD4E9" name="EMPL_TIPO_EMPL_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-26 23:19:33 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
-<referredTableLongName>TBL_TIPO_EMPLEADO</referredTableLongName>
+<referredTableLongName>DB_UNAH.TBL_TIPO_EMPLEADO</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B9E0E1BA-B42E-9D27-36C7-885FDCD2B890</referredTableID>
 <keyObject>D6B5CB9C-42AA-EF0C-7914-9132D35C84AB</keyObject>

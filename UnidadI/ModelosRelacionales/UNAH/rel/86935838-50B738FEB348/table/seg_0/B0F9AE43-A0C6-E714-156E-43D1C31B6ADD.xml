@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0F9AE43-A0C6-E714-156E-43D1C31B6ADD" name="TBL_CARRERAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0F9AE43-A0C6-E714-156E-43D1C31B6ADD" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_CARRERAS">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-03 16:46:45 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -103,7 +103,7 @@
 <colUsage columnID="CE3AA321-17A9-6F83-FB79-CAE8AC08E8B5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="59F6419C-8706-95B1-DE55-5CAF0E85EE2D" name="TBL_CARRERAS_TBL_FACULTADES_FK">
+<ind_PK_UK id="59F6419C-8706-95B1-DE55-5CAF0E85EE2D" name="CARR_FACU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-27 23:43:20 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>

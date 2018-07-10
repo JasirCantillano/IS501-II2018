@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="005E9C26-3402-3A61-1224-CBDF4A858A35" name="TBL_CARRERAS_X_MAESTRO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="005E9C26-3402-3A61-1224-CBDF4A858A35" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_CARRERAS_X_MAESTRO">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-26 23:46:21 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -71,7 +71,7 @@
 <colUsage columnID="85A5BE24-0B6A-0B1B-232E-F8E767964646"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EEBD4A7A-AE69-E74E-160F-21721EF0337A" name="TBL_CARRERAS_X_MAESTRO_TBL_MAESTROS_FK">
+<ind_PK_UK id="EEBD4A7A-AE69-E74E-160F-21721EF0337A" name="CARR_X_MAES_MAES_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-26 23:47:22 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -81,7 +81,7 @@
 <colUsage columnID="EA82708A-4B4B-E4DE-E738-DD6536716A9F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="59F56945-DEE8-38B2-6C31-7BB941405D26" name="TBL_CARRERAS_X_MAESTRO_TBL_CARRERAS_FK">
+<ind_PK_UK id="59F56945-DEE8-38B2-6C31-7BB941405D26" name="CARR_X_MAES_CARR_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-26 23:47:27 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3826744E-9027-A59A-800C-39D9082ECF66" name="TBL_MAESTROS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3826744E-9027-A59A-800C-39D9082ECF66" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_MAESTROS">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-06 19:17:10 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -63,7 +63,7 @@
 <colUsage columnID="77241552-A6E3-CB15-B908-689D26459300"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2CF642A8-E7BC-D7BD-DCBF-9817FE2B83BD" name="TBL_MAESTROS_TBL_EMPLEADOS_FK">
+<ind_PK_UK id="2CF642A8-E7BC-D7BD-DCBF-9817FE2B83BD" name="MAES_EMPL_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-26 23:35:55 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -73,7 +73,7 @@
 <colUsage columnID="77241552-A6E3-CB15-B908-689D26459300"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A2C3349A-7003-0917-2E33-0F30D1D05513" name="TBL_MAESTROS_TBL_TITULARIDAD_FK">
+<ind_PK_UK id="A2C3349A-7003-0917-2E33-0F30D1D05513" name="MAES_TITU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-26 23:36:33 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
@@ -83,7 +83,7 @@
 <colUsage columnID="67C20399-FA0A-D140-8260-51B40EA397D5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2E8B0B59-FC43-EF07-F714-ED654FB289E5" name="TBL_MAESTROS_TBL_AREA_ESPECIALIZACIONES_FK">
+<ind_PK_UK id="2E8B0B59-FC43-EF07-F714-ED654FB289E5" name="MAES_AREA_ESPE_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-06-26 23:37:25 UTC</createdTime>
 <ownerDesignName>UNAH</ownerDesignName>
