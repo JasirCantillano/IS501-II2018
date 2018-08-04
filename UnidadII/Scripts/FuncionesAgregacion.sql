@@ -15,4 +15,39 @@ LEFT JOIN DEPARTMENTS B
 ON (A.DEPARTMENT_ID = B.DEPARTMENT_ID)
 GROUP BY B.DEPARTMENT_NAME;
 
-SELECT * FROM EMPLOYEES;
+SELECT hire_date, count(*) cantidad_empleados
+FROM EMPLOYEES
+group by  hire_date;
+
+select *
+from employees
+where hire_date = to_date('10/03/2005','dd/mm/yyyy');
+
+
+select to_char(hire_date, 'FMMONTH/YYYY') as mes, hire_date, first_name, last_name
+from employees;
+
+--Mostrar la cantidad de empleados que han ingresado por cada mes
+select to_char(hire_date, 'FMMONTH/YYYY') as mes, count(*)
+from employees
+group by to_char(hire_date, 'FMMONTH/YYYY');
+
+----Mostrar la cantidad de empleados que han ingresado por cada año
+select to_char(hire_date, 'YYYY') as mes, count(*)
+from employees
+group by to_char(hire_date, 'YYYY')
+order by 1;
+
+
+
+
+select * 
+from employees
+order by hire_date asc;
+
+
+
+select chr(67) from dual;
+
+
+SELECT CONCAT('Buenas',' tardes') FROM DUAL; 
