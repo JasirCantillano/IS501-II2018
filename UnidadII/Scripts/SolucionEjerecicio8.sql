@@ -102,3 +102,71 @@ GROUP BY B.CODIGO_USUARIO,B.NOMBRE||' '||B.APELLIDO,
 HAVING COUNT(*)>5
 ORDER BY B.CODIGO_USUARIO;
 
+
+/*
+6. Un usuario puede estar suscrito a tableros, listas y tarjetas, de tal forma que si hay algún cambio
+se le notifica en su teléfono o por teléfono, sabiendo esto, se necesita mostrar los nombres de
+todos los usuarios con la cantidad de suscripciones de cada tipo, en la consulta se debe mostrar:
+• Nombre completo del usuario
+• Cantidad de tableros a los cuales está suscrito
+• Cantidad de listas a las cuales está suscrito
+• Cantidad de tarjetas a las cuales está suscrito
+
+
+
+*/
+
+SELECT *
+FROM TBL_SUSCRIPCIONES;
+
+SELECT  B.codigo_usuario, 
+        B.NOMBRE ||' '||B.APELLIDO AS NOMBRE,
+        count(codigo_lista) as cantidad_listas, 
+        count(codigo_tablero) as cantidad_tableros, 
+        count(codigo_tarjeta) as cantidad_tarjetas
+FROM TBL_SUSCRIPCIONES A
+INNER JOIN TBL_USUARIOS B
+ON (A.CODIGO_USUARIO = B.CODIGO_USUARIO)
+group by B.codigo_usuario,
+        B.NOMBRE ||' '||B.APELLIDO;
+        
+/*
+Consultar todas las organizaciones con los siguientes datos:
+• Nombre de la organización
+• Cantidad de usuarios registrados en cada organización
+• Cantidad de Tableros por cada organización
+• Cantidad de Listas asociadas a cada organización
+• Cantidad de Tarjetas asociadas a cada organización 
+*/
+--ong: 4	uSUARIOS: 2
+--Cantidad de usuarios por organizacion
+SELECT  CODIGO_ORGANIZACION, 
+        COUNT(*) CANTIDAD_USUARIOS
+FROM TBL_USUARIOS_X_ORGANIZACION
+ GROUP BY CODIGO_ORGANIZACION
+ ORDER BY CODIGO_ORGANIZACION;
+ 
+--ong:4 tABLEROS:2
+--Cantidad de tableros por organizacion
+SELECT CODIGO_ORGANIZACION, COUNT(*) CANTIDAD_TABLEROS
+FROM TBL_TABLERO
+GROUP BY CODIGO_ORGANIZACION
+ORDER BY CODIGO_ORGANIZACION;
+
+--Cantidad de listas por organizacion
+SELECT B.CODIGO_ORGANIZACION, COUNT(*) CANTIDAD_LISTAS
+FROM TBL_LISTAS A
+INNER JOIN TBL_TABLERO B
+ON A.CODIGO_tABLERO = B.CODIGO_TABLERO
+GROUP BY B.CODIGO_ORGANIZACION;
+
+
+--Cantidad de TARJETAS por organizacion
+SELECT C.CODIGO_ORGANIZACION, COUNT(*) CANTIDAD_TARJETAS
+FROM TBL_TARJETAS A
+INNER JOIN TBL_LISTAS B
+ON (A.CODIGO_LISTA = B.CODIGO_LISTA)
+INNER JOIN TBL_TABLERO C
+ON (B.CODIGO_tABLERO = C.CODIGO_TABLERO)
+GROUP BY C.CODIGO_ORGANIZACION
+ORDER BY C.CODIGO_ORGANIZACION;
