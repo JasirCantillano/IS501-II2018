@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="321A1E29-432F-BB28-B7AB-11A92EBFDA8D" name="TBL_ARTISTAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:37:26 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<schemaObject>98088B60-01A7-4004-02DC-57B498AF5546</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ARTISTA" id="20DDB357-8B9A-1A2F-556E-7254D50DF041">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:38:12 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ARTISTA" id="84308D1B-C0F1-36BC-0232-EC4327FAE4E3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:38:12 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="BF46E475-0A27-AB58-92C4-9BFEF95C5755">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:38:12 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F582EA4-D495-5E7D-D191-6CFB0E3A9328" name="TBL_ARTISTAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:38:34 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20DDB357-8B9A-1A2F-556E-7254D50DF041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

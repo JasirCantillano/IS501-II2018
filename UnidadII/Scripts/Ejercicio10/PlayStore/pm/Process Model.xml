@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="03F970B6-EDF6-CD5A-8B1A-294F88AB2299">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:19:00 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

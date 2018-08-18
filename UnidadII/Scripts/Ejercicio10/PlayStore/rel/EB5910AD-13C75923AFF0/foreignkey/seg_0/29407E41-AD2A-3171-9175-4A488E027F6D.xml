@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="29407E41-AD2A-3171-9175-4A488E027F6D" containerWithKeyObject="D12906FA-4EFA-0337-E5B4-4263EB1D5EB4" localFKIndex="91139598-5D02-DDAC-19FF-F43A8AEB485D" name="LIBROS_GENERO_LITE_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:21:31 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>98F2D6CE-5B6D-9484-2F53-0839C6709D6C</referredTableID>
+<keyObject>B6C7B8C8-7211-E108-B7C3-992B1FBC2547</keyObject>
+<referredKeyID>B6C7B8C8-7211-E108-B7C3-992B1FBC2547</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

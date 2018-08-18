@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D12906FA-4EFA-0337-E5B4-4263EB1D5EB4" name="TBL_LIBROS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:10:43 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<schemaObject>98088B60-01A7-4004-02DC-57B498AF5546</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUCTO" id="3260C975-9FA5-CF29-A88F-6440EE397519">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:13:14 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FA7D72A-DC22-0113-55C4-EBF7D6801DBE" referredColumn="CA31A3E4-0DED-708A-022A-78DF91A40B29"/>
+</associations>
+</Column>
+<Column name="CODIGO_IDIOMA" id="C346380B-29D6-A174-EDE9-C33282018E72">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:21:19 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4C665BB-CD45-EA99-CFCA-AB0A4A662E14" referredColumn="19E07AB5-7326-0469-5044-6477A276DF82"/>
+</associations>
+</Column>
+<Column name="CODIGO_GENERO" id="6DF31E14-2D2C-E963-EE3A-9636464CBA75">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:21:31 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29407E41-AD2A-3171-9175-4A488E027F6D" referredColumn="5005530E-5F99-8258-7331-1F510276AE4D"/>
+</associations>
+</Column>
+<Column name="CODIGO_EDITORIAL" id="A16E6ECA-B0DD-3A94-21F6-6C367BF25187">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:22:00 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE23A553-1656-AEE5-A23A-B64233E7A5A0" referredColumn="BBCBA8AA-C254-882E-52A7-E9B8C87DFAE2"/>
+</associations>
+</Column>
+<Column name="ISBN" id="0AE6C7FE-EDA0-0581-3430-27D3D50E87D4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:11:26 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDICION" id="C8F2A353-D237-2599-CC3B-5B7CB7631F18">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:11:26 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_PAGINAS" id="24D12668-9B4F-2862-F403-BDBB4DD45B91">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:11:26 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGEN_CARATULA" id="FFBA5762-92D7-D587-626F-A13E62B01A1C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:12:43 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81164574-64D5-95E1-F0FF-69DD7AED4443" name="TBL_LIBROS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:13:38 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3260C975-9FA5-CF29-A88F-6440EE397519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FC34A65-ACD9-2662-E6A6-70A64143CF69" name="TBL_LIBROS_TBL_PRODUCTOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:13:14 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3260C975-9FA5-CF29-A88F-6440EE397519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61C12D72-55AF-75D5-C8A6-346BF09F0E62" name="LIBROS_DIOMAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:21:19 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C346380B-29D6-A174-EDE9-C33282018E72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91139598-5D02-DDAC-19FF-F43A8AEB485D" name="LIBROS_GENERO_LITE_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:21:31 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DF31E14-2D2C-E963-EE3A-9636464CBA75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84A5E21D-8112-5E09-8092-D2F588D55897" name="LIBROS_EDITO_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:22:00 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A16E6ECA-B0DD-3A94-21F6-6C367BF25187"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

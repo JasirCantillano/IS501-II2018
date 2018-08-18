@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B22154C1-9FAE-847B-B83D-3BBAAD67BCB4" name="TBL_AUTORES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:14:00 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<schemaObject>98088B60-01A7-4004-02DC-57B498AF5546</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_AUTOR" id="16A87C11-ED15-C776-2059-FD7B6C11ACF5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:15:51 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_AUTOR" id="2CBE6B9A-6FD6-0184-43C9-9C48DC806469">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:15:51 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="B7DCA1C2-C104-F125-953D-7E1221D88A46">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:15:51 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="693E94BE-0F2E-D47D-FC07-F7320E096AA8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:15:51 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93F156E4-4A62-9D9A-95F8-63B164D8EFDF" name="TBL_AUTORES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:15:51 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16A87C11-ED15-C776-2059-FD7B6C11ACF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

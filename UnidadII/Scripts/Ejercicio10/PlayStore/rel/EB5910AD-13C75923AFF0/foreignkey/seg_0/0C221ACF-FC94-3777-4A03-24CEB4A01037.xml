@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C221ACF-FC94-3777-4A03-24CEB4A01037" containerWithKeyObject="1E76D0EF-42FC-7930-26CE-6FD35EC0155F" localFKIndex="36F90138-524D-7D9F-1F3A-CB37178D304C" name="ARTI_CANCION_CANCI_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:40:08 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB229B02-48D4-F05C-E3D5-3D3E0FC3DB78</referredTableID>
+<keyObject>A5C0E1CE-CC43-E9A8-3F0C-ED59BB4B2160</keyObject>
+<referredKeyID>A5C0E1CE-CC43-E9A8-3F0C-ED59BB4B2160</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="878A3DD3-E766-3F27-FBB7-82CE276D0FEB" name="TBL_APLICACIONES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:35:40 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<schemaObject>98088B60-01A7-4004-02DC-57B498AF5546</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_APLICACION" id="277F67D4-D973-CB14-BBA8-F92C61EF7C41">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:42:27 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="890D5D60-1582-A0B5-3064-E6080D2FC38D" referredColumn="CA31A3E4-0DED-708A-022A-78DF91A40B29"/>
+</associations>
+</Column>
+<Column name="CODIGO_DESARROLLADOR" id="1FF96A48-487C-1C90-8563-0C79D07969C2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:33:08 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C948139-7733-61AB-FFDB-783249D83D4D" referredColumn="B5909F4F-77D6-1E82-8614-7F82F1185AA2"/>
+</associations>
+</Column>
+<Column name="VERSION" id="6C873002-6953-56E1-161D-BB063581AB6E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:37:16 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_LANZAMIENTO" id="4DA80F53-85E1-61BA-8EA7-3DAB35726AD4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:37:16 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ACTUALIZACION" id="19FE4CB3-3294-8703-014E-33CDF82333C2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:37:16 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22DAC07E-89FD-5B8D-9148-20B00734E622" name="TBL_APLICACIONES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:43:37 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="277F67D4-D973-CB14-BBA8-F92C61EF7C41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BF2F8C9-C91B-AACD-41C5-3972825A10CF" name="APLICACIONES_PRODUCTOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:42:27 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="277F67D4-D973-CB14-BBA8-F92C61EF7C41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F402C8E-7401-A190-BA4E-3358B5D5CDC1" name="APL_DESARROLLADORES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:33:08 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FF96A48-487C-1C90-8563-0C79D07969C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

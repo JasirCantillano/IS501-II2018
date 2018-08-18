@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BA3F972-933D-7026-5F7E-3BD63AF7F483" name="TBL_HISTORIAL_DESCARGAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:55:11 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<schemaObject>98088B60-01A7-4004-02DC-57B498AF5546</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DESCARGA" id="B7EC2C86-E36D-BC0A-0B0A-142E80E7F633">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:56:29 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="69B58125-11F0-0D2F-847C-6E3210DCB87A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:56:36 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FF5AD2A-0F86-0494-A56D-AF56F2C0F8BA" referredColumn="026B3F23-189B-193F-FC76-D41A23638F28"/>
+</associations>
+</Column>
+<Column name="CODIGO_PRODUCTO" id="7CFD8C71-CB05-5795-ECCE-3A0BCF3B3422">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:56:56 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FA4D32A-538D-88DF-156F-C64AA56DDE2B" referredColumn="CA31A3E4-0DED-708A-022A-78DF91A40B29"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTATUS" id="D9E232E5-E933-EDBF-ABEA-ACC92107C66F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 04:02:00 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F68FFE48-B6BD-1531-DD9E-71F0601CD0B6" referredColumn="397FF038-AFBC-967E-FCD1-C248B0388F95"/>
+</associations>
+</Column>
+<Column name="FECHA_DESCARGA" id="047DE2DF-2D7A-EC99-956C-29BB9348CD8D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:56:29 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6A11310-C2E9-E87D-2120-90ECA2D448AB" name="TBL_HISTORIAL_DESCARGAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:56:29 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7EC2C86-E36D-BC0A-0B0A-142E80E7F633"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AC98A06-49E0-0AD6-1C9B-04E71EC56F10" name="HIST_DESCA_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:56:36 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69B58125-11F0-0D2F-847C-6E3210DCB87A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D0688D3-31F3-F430-57C1-E58A5667A52C" name="HIST_DESC_PRODUCTOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:56:56 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CFD8C71-CB05-5795-ECCE-3A0BCF3B3422"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD351818-B903-CB12-4A6A-BF9092E02B9B" name="HIST_DESC_EST_DESC_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 04:02:00 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9E232E5-E933-EDBF-ABEA-ACC92107C66F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

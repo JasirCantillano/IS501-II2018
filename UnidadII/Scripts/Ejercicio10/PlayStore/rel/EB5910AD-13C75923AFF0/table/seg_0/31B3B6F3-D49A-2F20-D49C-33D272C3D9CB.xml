@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31B3B6F3-D49A-2F20-D49C-33D272C3D9CB" name="TBL_CALIFICACIONES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:29:09 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<schemaObject>98088B60-01A7-4004-02DC-57B498AF5546</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUCTO" id="13E8DC7D-D894-415A-0FB9-75C936BAAB12">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:31:48 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE7A1DCD-5915-82D7-C6DD-E15F6C0BE8C4" referredColumn="CA31A3E4-0DED-708A-022A-78DF91A40B29"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="D7FEA2B5-96D8-9F0F-2870-0771E9E9215D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:32:01 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF933F24-9BCF-403D-B6C6-3AF23EAABE7C" referredColumn="026B3F23-189B-193F-FC76-D41A23638F28"/>
+</associations>
+</Column>
+<Column name="COMENTARIO" id="75D692AE-2E93-3FE5-A0B5-F677678765FA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:31:41 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALORACION" id="46864265-AE2B-106B-E43C-D439FF7FC453">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:31:41 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CALIFICACION" id="F10139A0-300E-FC28-9D95-A61CEF2565E0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:31:41 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6909B8D4-8307-BA5E-0F9D-CB65123A2A15" name="TBL_CALIFICACIONES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:32:28 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13E8DC7D-D894-415A-0FB9-75C936BAAB12"/>
+<colUsage columnID="D7FEA2B5-96D8-9F0F-2870-0771E9E9215D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99651A37-D5DB-2AC5-0C7F-C7E158EC0FFD" name="CALIFICL_PRODUCTOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:31:48 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13E8DC7D-D894-415A-0FB9-75C936BAAB12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7183D8FF-B75C-0FE3-7D5A-961953FB0F25" name="CALIFIC_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-03-18 03:32:01 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7FEA2B5-96D8-9F0F-2870-0771E9E9215D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C64F94A-F57A-9A21-215B-6484D46E2691" name="TBL_PRODUCTOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:45:45 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<schemaObject>98088B60-01A7-4004-02DC-57B498AF5546</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUCTO" id="CA31A3E4-0DED-708A-022A-78DF91A40B29">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:49:58 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_PRODUCTO" id="8BC0C6A9-B3F1-A327-5A53-F8B80D9BEAC5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:51:27 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="273F14F1-C959-DD9F-EA3F-043C269A4FA2" referredColumn="C7E6543A-8854-3B2D-8AAF-13B215BABA67"/>
+</associations>
+</Column>
+<Column name="CODIGO_FORMATO" id="C5976AED-11DE-58FE-45E3-186AC60A3494">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:11:37 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEE9765B-2608-12C5-92B2-FBF1BD49959A" referredColumn="8F826B42-5F50-8A67-6312-0FD97F54C959"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_COSTO" id="4D5CE5DB-592D-A23D-C11E-987E25FE2EEF">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:18:48 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AD03196-8037-B9D0-6322-8F78E5EBCFCE" referredColumn="BDE3C2B5-10F2-C5CB-5F51-D3080F846E36"/>
+</associations>
+</Column>
+<Column name="CODIGO_LICENCIA" id="8F44058E-D615-D786-48BE-1E069BDFB6E5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:22:52 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B9245C9-A1C7-94CB-4367-7AF4AF6A54D4" referredColumn="09F170A4-111C-51E8-7DA7-72859EB96A93"/>
+</associations>
+</Column>
+<Column name="CODIGO_CATEGORIA" id="081716A8-B746-2A53-A4C2-5D6C26F78A8E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:55:00 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92993832-D65F-3EE7-FE73-9D374FE6FAED" referredColumn="D139FE02-202C-2812-AED8-7337A47902C6"/>
+</associations>
+</Column>
+<Column name="NOMBRE_PRODUCTO" id="E78B82CD-5DD7-8093-BB36-3F17A2311364">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:49:58 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="574F7555-EBF3-F703-3EC3-6D1EB5EA67B4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:49:58 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="D0423F04-F911-9C79-34DC-77DBBC981CA6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:49:58 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMANIO_BYTES" id="9ACC2AE9-D2C2-BC68-10F5-F1F0B0E20AB0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:49:58 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E70ABB9-DA7D-7F49-A71E-EDB74F5E34B7" name="TBL_PRODUCTOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:49:58 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA31A3E4-0DED-708A-022A-78DF91A40B29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58D851BD-CEEE-FD99-CDA0-C0218101CD93" name="PRODUCTOS_TIPOS_PRODUCTOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:51:27 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BC0C6A9-B3F1-A327-5A53-F8B80D9BEAC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF111BC3-7C10-FD34-8272-77C425D0D8FC" name="TBL_PRODUCTOS_TBL_FORMATOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:11:37 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5976AED-11DE-58FE-45E3-186AC60A3494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECBF527D-A1E2-18DC-5343-B945174BBEA7" name="PRODUCTOS_TIPOS_COSTOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:18:48 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D5CE5DB-592D-A23D-C11E-987E25FE2EEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9991AF6-00C6-511B-859B-BD293C0ABC51" name="TBL_PRODUCTOS_TBL_LICENCIAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:22:52 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F44058E-D615-D786-48BE-1E069BDFB6E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3A2F90B-2FB2-0239-2450-201D87D2373B" name="PRODUCTOS_CATEGORIAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:55:00 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="081716A8-B746-2A53-A4C2-5D6C26F78A8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CEE9765B-2608-12C5-92B2-FBF1BD49959A" containerWithKeyObject="2C64F94A-F57A-9A21-215B-6484D46E2691" localFKIndex="CF111BC3-7C10-FD34-8272-77C425D0D8FC" name="TBL_PRODUCTOS_TBL_FORMATOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:11:37 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>80162A5E-2F90-B751-46E8-AD6AA0867F30</referredTableID>
+<keyObject>9FF630E1-C517-420A-8FA6-E9F87093C55A</keyObject>
+<referredKeyID>9FF630E1-C517-420A-8FA6-E9F87093C55A</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

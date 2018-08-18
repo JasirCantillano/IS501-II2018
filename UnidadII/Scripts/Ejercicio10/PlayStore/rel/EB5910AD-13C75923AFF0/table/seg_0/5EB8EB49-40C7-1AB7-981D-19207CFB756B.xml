@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EB8EB49-40C7-1AB7-981D-19207CFB756B" name="TBL_REQUERIMIENTOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:44:18 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<schemaObject>98088B60-01A7-4004-02DC-57B498AF5546</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_REQUERIMIENTO" id="D91773E8-6B6F-C341-0D46-BB2B2B21E25A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:45:08 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_REQUERIMIENTO" id="B29FC3E7-5F74-EA6B-9578-73E09F56126E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:45:08 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>230</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="6F8F8119-FBA2-64AF-4462-0F7636FBEF19">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:45:08 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6726F7BC-E835-A0B6-836F-47CE96BB649A" name="TBL_REQUERIMIENTOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:45:08 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D91773E8-6B6F-C341-0D46-BB2B2B21E25A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

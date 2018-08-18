@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6B61D66-9DB8-BF60-015C-6DD44EB7C0C0" name="TBL_TIPOS_PRODUCTOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:24:04 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<schemaObject>98088B60-01A7-4004-02DC-57B498AF5546</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_PRODUCTO" id="C7E6543A-8854-3B2D-8AAF-13B215BABA67">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:32:08 UTC</createdTime>
+<commentInRDBMS>CAMPO QUE IDENTIFICA DE FORMA UNICA UN TIPO DE PRODUCTO</commentInRDBMS>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PRODUCTO" id="A41AC790-A4F6-B084-CD1E-864875373B34">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:32:08 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C92C17BE-858A-5B10-4B74-617FBF5B18C6" name="TBL_TIPOS_PRODUCTOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-03 17:32:08 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7E6543A-8854-3B2D-8AAF-13B215BABA67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

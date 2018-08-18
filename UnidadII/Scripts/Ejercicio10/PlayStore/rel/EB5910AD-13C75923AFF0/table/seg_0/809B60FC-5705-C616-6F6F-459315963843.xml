@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="809B60FC-5705-C616-6F6F-459315963843" name="TBL_LICENCIAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:20:52 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<schemaObject>98088B60-01A7-4004-02DC-57B498AF5546</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LICENCIA" id="09F170A4-111C-51E8-7DA7-72859EB96A93">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:21:17 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LICENCIA" id="9572338C-F7BB-BE68-4432-81E0C4EF0541">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:21:17 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="8A21A001-4BF8-3356-E359-7EC512D7D7A9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:22:05 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANIO_PUBLICACION" id="66585753-985D-1F00-83DE-5F7A0CE0E52A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:22:05 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E743C74F-B247-D7F0-FAB8-D97F91CA8079" name="TBL_LICENCIAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:21:17 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09F170A4-111C-51E8-7DA7-72859EB96A93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

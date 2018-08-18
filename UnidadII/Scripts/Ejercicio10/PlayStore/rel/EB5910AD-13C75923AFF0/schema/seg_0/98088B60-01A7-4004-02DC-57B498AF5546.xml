@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="PLAYSTORE" directorySegmentName="seg_0" id="98088B60-01A7-4004-02DC-57B498AF5546">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-04-03 21:14:10 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+</SchemaObject>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30A24702-47B3-7785-07E9-9FE922188A12" name="TBL_CATEGORIAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:50:53 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<schemaObject>98088B60-01A7-4004-02DC-57B498AF5546</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CATEGORIA" id="D139FE02-202C-2812-AED8-7337A47902C6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:51:57 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="EFD4AB8E-0326-BD01-D111-43E8B58668F0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:51:57 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="B124FB8C-C2AE-6092-DD54-9A26E6EE626A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:51:57 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACIONES" id="AF3FACA7-97F9-63E7-A5AD-B0C0918C7D6C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:51:57 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CATEGORIA_PADRE" id="1F3AA73C-E7C1-2C6E-C5EC-AFA2820EFAE1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:53:25 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7F11FF0-AE9A-7923-B869-5E27864B9463" referredColumn="D139FE02-202C-2812-AED8-7337A47902C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="147A0CA3-FA7C-6861-175A-AFA0CB604C11" name="TBL_CATEGORIAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:51:57 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D139FE02-202C-2812-AED8-7337A47902C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96A2013B-753E-FFDD-7BC9-6A2657A3681C" name="CATEGORIAS_CATEGORIAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-04 17:53:25 UTC</createdTime>
+<ownerDesignName>PlayStore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F3AA73C-E7C1-2C6E-C5EC-AFA2820EFAE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
